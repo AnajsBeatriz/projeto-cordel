@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Passion One';
+    src: url(fontes/PassionOne-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url(fontes/Sriracha-Regular.ttf) format('truetype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    background: black url(imagens/birds.png) left bottom
+    no-repeat;
+    background-size: 60vw;  
+}
+
+h1{
+    padding-top: 50px;
+    font-family: 'Passion One', 'Times New Roman', Times, serif;
+    font-size: 10vw;
+    font-variant: small-caps;   
+}
+.autor{
+    padding-bottom: 50px;
+}
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+section{
+    font-family: 'sriracha', 'Times New Roman', Times, serif ;
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding: 80px 0px 100px 30px;   
+}
+.basico{
+    padding-bottom: 100px ;
+}
+#imagem1{
+    background: rgb(209, 209, 209) url(imagens/trees.jpg) center center no-repeat fixed;
+    background-size: cover;  
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.483);
+  
+}
+#imagem2{
+    background: rgb(209, 209, 209) url(imagens/paper-.jpg) center center no-repeat fixed;
+    background-size: cover; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.483);
+}
+.fundotxt{
+    background-color: rgba(0, 0, 0, 0.588);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 6px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;    
+}
